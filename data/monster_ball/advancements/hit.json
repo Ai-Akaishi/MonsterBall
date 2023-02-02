@@ -1,0 +1,20 @@
+{
+	"criteria": {
+	  "hit_snowball": {
+		"conditions": {
+		  "damage": {
+			"type": {
+			  "direct_entity": {
+				"type": "minecraft:snowball"
+			  },
+			  "is_projectile": true
+			}
+		  }
+		},
+		"trigger": "minecraft:player_hurt_entity"
+	  }
+	},
+	"rewards": {
+		"function": "monster_ball:hit"
+	}
+  }
